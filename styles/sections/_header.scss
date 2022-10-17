@@ -2,6 +2,7 @@
     position: fixed;
     width: 100%;
     background-color: $background-color-header;
+    z-index: 5;
 
     .wrapper-center {
         @include content-width_m {

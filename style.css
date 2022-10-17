@@ -729,6 +729,7 @@ a.active {
   position: fixed;
   width: 100%;
   background-color: rgba(16, 16, 29, 0.9);
+  z-index: 5;
 }
 @media (max-width: 1024px) {
   .header .wrapper-center {
