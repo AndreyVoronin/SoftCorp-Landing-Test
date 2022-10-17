@@ -1,0 +1,101 @@
+body {
+    @include font(13px, 16px);
+
+    font-family: Lato, sans-serif;
+    color: $color-text;
+    min-width: 320px
+}
+
+// h1
+.section-text_xxl {
+    @include font(48px, 58px);
+
+    @include content-width_l {
+        @include font(42px, 54px);
+    }
+
+    @include content-width_m {
+        @include font(38px, 50px);
+    }
+
+    @include tablet-width {
+        @include font(30px, 50px);
+    }
+
+    @include mobile-width {
+        @include font(22px, 35px);
+    }    
+}
+// h2
+.section-text_xl {
+    @include font(36px, 43px);
+
+    @include content-width_m {
+        @include font(32px, 40px);
+    }
+
+    @include tablet-width {
+        @include font(26px, 38px);
+    }
+
+    @include mobile-width {
+        @include font(20px, 30px);
+    }
+}
+// h3
+.section-text_l {
+    @include font(28px, 33px);
+
+    @include content-width_m {
+        @include font(24px, 30px);
+    }
+
+    @include tablet-width {
+        @include font(22px, 28px);
+    }
+
+    @include mobile-width {
+        @include font(20px, 26px);
+    }
+}
+// h4
+.section-text_m {
+    @include font(22px, 33px);
+
+    @include content-width_m {
+        @include font(20px, 33px);
+    }
+
+    @include tablet-width {
+        @include font(16px, 33px);
+    }
+
+    @include mobile-width {
+        @include font(14px, 30px);
+    }
+}
+// h5
+.section-text_xs {
+    @include font(20px, 24px);
+
+    @include content-width_m {
+        @include font(18px, 24px);
+    }
+
+    @include tablet-width {
+        @include font(14px, 24px);
+    }
+}
+// h6
+.section-text_s {
+    @include font(13px, 16px);
+}
+
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+a.active {
+    color: $color-active-link;
+}

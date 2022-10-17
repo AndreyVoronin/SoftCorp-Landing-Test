@@ -1,0 +1,23 @@
+.wrapper-center {
+  max-width: 1190px;
+  width: 100%;
+  margin: auto;
+
+  padding: 0 10px;
+
+  @include content-width-m {
+    padding: 10px 100px;
+  }
+
+  @include tablet-width {
+    padding: 0 60px;
+  }
+
+  @include mobile-width {
+    padding: 0 30px;
+  }
+
+  @include mobile-width-small {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,52 @@
+@mixin font($size, $height, $weight: 400, $style: normal) {
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin content-width_l {
+    @media (max-width: $content-width-l) {
+        @content;
+    }
+}
+
+@mixin content-width_m {
+    @media (max-width: $content-width-m) {
+        @content;
+    }
+}
+
+@mixin tablet-width {
+    @media (max-width: $tablet-width) {
+        @content;
+    }
+}
+
+@mixin mobile-width {
+    @media (max-width: $mobile-width) {
+        @content;
+    }
+}
+
+@mixin mobile-width_small {
+    @media (max-width: $mobile-width-small) {
+        @content;
+    }
+}
+
+@mixin max-width($breakpoint) {
+    @media (max-width: $breakpoint) {
+        @content;
+    }
+}
+
+@mixin button {
+    border-radius: $button-border-radius;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+
+    @include font(13px, 16px);
+    @extend .uppercase-text;
+    font-family: Lato, sans-serif;
+}

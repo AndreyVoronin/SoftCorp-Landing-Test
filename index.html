@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SoftCorp</title>
+</head>
+<body>
+    <header class="header header-wrapper">
+        <div class="wrapper-center d-flex-between flex-wrap">
+            <!-- brand name section -->
+            <div class="header__brand-name py-32">
+                <h3 class="section-text_l fw-800 uppercase-text mr-30">
+                    LoremIpsum.<span class="header__brand-name-subtitle">Net</span>
+                </h3>
+            </div>
+            <!-- /brand name section -->
+
+            <!-- navigation site menu -->
+            <div class="header__nav-menu d-flex">
+                <div class="header__nav-menu_mobile">
+                    <div class="header__nav-menu_mobile-link"></div>
+                </div>
+                <ul class="header__nav-menu-list fw-600 uppercase-text d-flex">
+                    <li class="header__nav-menu-link">
+                        <a href="#" class="active">бизнес</a>
+                    </li>
+                    <li class="header__nav-menu-link">
+                        <a href="#">о нас</a>
+                    </li>
+                    <li class="header__nav-menu-link">
+                        <a href="#">цены</a>
+                    </li>
+                    <li class="header__nav-menu-link">
+                        <a href="#">оформить заказ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /navigation site menu -->
+        </div>
+    </header>
+
+    <main class="main main-wrapper">
+        <section class="main__presentation">
+            <div class="wrapper-center d-flex-column">
+                <h1 class="section-text_xxl main__presentation-title">
+                    <span class="main__presentation-subtitle">lorem ipsum</span>
+                    dolor sit ametconsectetur
+                    <span class="main__presentation-subtitle">adipiscing</span>
+                </h1>
+
+                <section class="main__presentation-info">
+                    <p class="section-text_xs fw-700 mb-10">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+
+                    <ul class="main__presentation-info-list-options pl-14">
+                        <li class="info-list-option">
+                            <p class="section-text_xs option">Totam rem aperiam eaque ipsa</p>
+                        </li>
+                        <li class="info-list-option">
+                            <p class="section-text_xs option">Sit voluptatem accusantium doloremque laudantium</p>
+                        </li>
+                        <li class="info-list-option">
+                            <p class="section-text_xs option">Sed ut perspiciatis, unde omnis iste natus error</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="main__presentation-controls d-flex">
+                    <button class="button-primary mr-30">Заказать</button>
+                    <button class="button-secondary">Подробнее</button>
+                </section>
+            </div>
+        </section>
+
+        <section class="main__order">
+            <div class="wrapper-center d-flex-column-center">
+                <h2 class="section-text_xl uppercase-text main__order-title">
+                    Оформление 
+                    <span class="main__order-subtitle">заказа</span>
+                </h2>
+
+                <p class="main__order-condition-text">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+
+                <ul class="main__order-scheme-work-list d-flex-between">
+                    <li class="main__order-scheme-work-card">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="assets/images/select.png" alt="select">
+                        </div>
+
+                        <p class="card-description">Lorem ipsum dolor sit amet</p>
+                    </li>
+                    <li class="main__order-scheme-work-card">
+                        <div class="card-image-wrapper">
+                            <img class="card-image percent" src="/assets/images/percent.png" alt="select">
+                        </div>
+
+                        <p class="card-description">Сonsecteturadipiscing elit</p>
+                    </li>
+                    <li class="main__order-scheme-work-card">
+                        <div class="card-image-wrapper">
+                            <img class="card-image subtract" src="assets/images/subtract.png" alt="select">
+                        </div>
+
+                        <p class="card-description">Sed do eiusmod tempor</p>
+                    </li>
+                    <li class="main__order-scheme-work-card">
+                        <div class="card-image-wrapper">
+                            <img class="card-image email" src="assets/images/email.png" alt="select">
+                        </div>
+
+                        <p class="card-description">Esse cillum dolore eu fugiat</p>
+                    </li>
+                    <li class="main__order-scheme-work-card">
+                        <div class="card-image-wrapper">
+                            <img class="card-image cash" src="assets/images/cash.png" alt="select">
+                        </div>
+
+                        <p class="card-description">Excepteur sint occaecat cupidatat non proident</p>
+                    </li>
+                </ul>
+
+                <form name="order" class="main__order-form">
+                    <div class="form-group">
+                        <select name="systemTypes" class="input system-type-select">
+                            <option hidden>Выберите тип системы</option>
+                            <option value="id1">Sed ut perspiciatis</option>
+                            <option value="id2">Nemo enim ipsam</option>
+                            <option value="id3">Et harum quidem</option>
+                            <option value="id4">Temporibus autem</option>
+                            <option value="id5">Itaque earum rerum</option>
+                        </select>
+    
+                        <input type="email" name="email" placeholder="Ваш e-mail" class="input">
+                        <input type="text" name="name" placeholder="Ваше имя" class="input">
+                    </div>
+
+                    <div class="form-group wrapper">
+                        <div class="rating">
+                            <p class="rating-title d-flex-between">
+                                <span>Sed ut perspiciatis, unde omnis iste natus</span><span>75%</span>
+                            </p>
+                            <div class="rating-item">
+                                <div class="rating-item_progress" data-progress="30">                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="button-secondary upload-file d-flex-center">
+                            <img src="assets/images/upload-file.png" class="mr-10"><span>Прикрепить файл</span>
+                        </button>
+                    </div>
+
+                    <button type="button" class="button-primary order-submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer footer-wrapper">
+        <div class="wrapper-center">
+            <p class="footer__copyright">
+                © 2018 «<span class="uppercase-text">LoremIpsum.net</span>» Все права защищены.
+            </p>
+
+            <span class="footer__separator">|</span>
+
+            <ul class="footer__menu-pay d-flex">
+                <li class="footer__menu-pay-item">
+                    <a href="http://qiwi.com" target="_blank" class="link">
+                        <img src="assets/images/qiwi.png" alt="Qiwi wallet">
+                        <span class="pay-name">Qiwi wallet</span>
+                    </a>
+                </li>
+                <li class="footer__menu-pay-item">
+                    <a href="http://yoomoney.ru" target="_blank" class="link">
+                        <img src="assets/images/yandex-money.png" alt="Yandex Money">
+                        <span class="pay-name">Yandex Money</span>
+                    </a>
+                </li>
+                <li class="footer__menu-pay-item">
+                    <a href="http://webmoney.ru" target="_blank" class="link">
+                        <img src="assets/images/web-money.png" alt="Web Money">
+                        <span class="pay-name">Web Money</span>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__separator">|</span>
+
+            <ul class="footer__menu-contacts d-flex">
+                <li class="footer__menu-contacts-item">
+                    <a href="mailto:info@ipsum228.com" class="link">
+                        <img src="assets/images/email-contact.png" alt="e-mail">
+                        <span class="contact-name">info@ipsum228.com</span>
+                    </a>
+                </li>
+                <li class="footer__menu-contacts-item">
+                    <a href="http://vk.com" target="_blank" class="link">
+                        <img src="assets/images/vkontakte.png" alt="V kontakte">
+                        <span class="contact-name">Мы вконтакте</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

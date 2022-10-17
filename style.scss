@@ -1,0 +1,23 @@
+// Variables
+@import "./styles/variables/colors";
+@import "./styles/variables/sizes";
+@import "./styles/variables/fonts";
+
+// Mixins
+@import "./styles/utils/mixins";
+@import "./styles/utils/common";
+
+// Base styles
+@import "./styles/base/wrapper";
+@import "./styles/base/reset";
+@import "./styles/base/typography";
+
+// Components
+@import "./styles/components/button";
+@import "./styles/components/input";
+@import "./styles/components/progress-bar";
+
+// Sections
+@import "./styles/sections/header";
+@import "./styles/sections/main";
+@import "./styles/sections/footer";

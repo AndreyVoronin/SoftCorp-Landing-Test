@@ -1,0 +1,17 @@
+.button-primary {
+    @include button;
+
+    background-color: $color-primary;
+    border-color: $color-border-primary;
+    padding: 12px 58px;
+    color: $color-text;
+}
+
+.button-secondary {
+    @include button;
+
+    background-color: $background-color-button-secondary;
+    border-color: $color-border-secondary;
+    color: $color-button-secondary;
+    padding: 13px 50px;
+}
